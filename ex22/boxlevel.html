@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de caixas</title>
+</head>
+<style>
+    h1 {  /*BOX LEVEL*/
+
+      /*Display: Inline; == transforma o display dele pra uma unica linha
+      display block, block = bloco q eh uma caixa*/
+      height: 300px;
+      width: 300px;
+      background-color: lightgray;
+
+      /*border-width: 10px;
+      border-style: solid;
+      border-color: darkgreen; 
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      outline-width: 5px;
+      outline-style: dashed;
+      outline-color: salmon;*/
+
+        /*SHORTHANDS e se as 4 forem iguais, pode usar 1 valor so
+        se forem 2 valores vai ser top bottom, 4 valores pra 4 lados
+        1 valor = all
+        2 valor = top bottom
+        4 valores = todas margens*/
+
+      border: 10px solid darkgoldenrod;
+      padding: 10px 10px 10px 10px;
+      margin: 20px auto 40px auto;
+      outline: 5px dashed red;
+
+    }
+    a {  /*INLINE LEVEL*/
+      border-width: 5px;
+      border-style: double;
+      border-color: red;
+      padding: 5px;
+      margin: 10px;
+    }
+</style>
+<body>
+  <h1>Trabalhando caixas box level</h1>
+  <p>paragrafos tbm sao exemplos de box level, mas os <a href="#">links sao exemplos de caixas inline level</a>Vamos ver como tudo isso funciona</p>
+
+  
+</body>
+</html>

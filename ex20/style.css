@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS é # 
+   em HTML é class = em css é .
+*/
+
+body {
+  background-color: rgb(205, 255, 203);
+}
+
+h1 {
+  color: rgb(4, 109, 0);
+}
+
+h1#principal {
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+h2 {
+  color: rgb(73, 109, 71);
+}
+
+h2.basic {
+  text-align: center;
+  background-color: beige;
+  color: blue;
+}
+
+h2.interm {
+  color: blueviolet;
+  
+}
+
+h2.advanced {
+  color: brown;
+  text-align: right;
+}
+
+/*
+Pode-se identificar a classe somente por 
+.basic
+.interm
+.advanced
+sem colocar o h2 na frente
+*/
