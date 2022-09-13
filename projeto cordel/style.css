@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@font-face {
+  font-family: 'Cream Cake';
+  src: url(fontes/Cream\ Cake.otf);
+}
+
 :root {
   --fonte1: Verdana, Geneva, Tahoma, sans-serif;
   --fonte2: 'Sriracha', cursive;
@@ -62,6 +67,9 @@ section {
   line-height: 2em;
   padding-left: 30px;
 }
+section > p {
+  padding: 10px;
+}
 
 .normal {
   background-color: white;
@@ -71,12 +79,29 @@ section {
 .imagem {
   background-color: rgb(82, 82, 82);
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .imagem > p {
-  background-color: rgba(0, 0, 0, 0.250);
+  background-color: rgba(0, 0, 0, 0.500);
   display: inline-block;
   padding: 10px;
+  
+  text-shadow: 1px 1px 0px black;
+}
+
+#img01 {
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+  background-size: cover;
+}
+
+#img02 {
+  background-image: url(imagens/background002.jpg);
+  background-position: right bottom;
+  background-size: cover;
 }
 
 footer {
