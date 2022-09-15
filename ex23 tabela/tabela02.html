@@ -17,16 +17,33 @@
     table {
       border-collapse: collapse;   
       width: 70vw;   
+      position: relative;
     }
     td {
       border: 1px solid black;
       text-align: center;
       padding: 10px;
     }
-    
-    #pe {
-      
+
+    thead > tr > td {
+      position: sticky;
+      top: 0;
+      background-color: gray;
     }
+
+    tbody > tr:nth-child(2n) {
+      background-color: lightblue;
+    }
+    
+    caption {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2em;
+      border: 1px solid black;
+      background-color: gray;
+      color: white;
+      font-weight: bolder;
+    }
+
 
 
   </style>
@@ -35,6 +52,7 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+      <caption>Tabela de Populaçao por estado</caption>
       <thead>
         <tr>
           <td>Posição</td>
@@ -140,10 +158,20 @@
 
       </tbody>
       <tfoot>
-        <tr>
-          <td id="pe">Tabela feita por CaioH</td>
-        </tr>
+        <td colspan="7">Tabela criada por CaioH</td>
       </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo distinctio quam veniam consequatur molestiae ea earum magnam aliquam obcaecati deserunt quo dolores soluta, nisi debitis voluptas dignissimos hic maiores!Lorem</p>
+
 </body>
 </html>
