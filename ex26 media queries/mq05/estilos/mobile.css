@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+menu {
+  display: none;
+}
+
+#hambg {
+  display: block;
+  font-size: 3em;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+#hambg:hover {
+  cursor: pointer;
+  display: block;
+}
